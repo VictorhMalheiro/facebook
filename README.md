@@ -1,5 +1,5 @@
 
-#INTRODUÇÃO AO REACT.JS
+# INTRODUÇÃO AO REACT.JS
 ## Mini curso IFSP
 
 #### O que é React?
