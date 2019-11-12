@@ -57,7 +57,7 @@ Instale o Node.js
 $ npm install yarn -g
 ```
 
-##Para rodar este projeto pronto faça um clone deste repositório e digite
+## Para rodar este projeto pronto faça um clone deste repositório e digite
 ```bash
 $ yarn
 $ yarn dev
