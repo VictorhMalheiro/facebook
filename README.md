@@ -4,9 +4,9 @@
 
 #### O que é React?
 * Biblioteca para construção de interfaces;
-    * Sim , pois existe o React Web, Mobile e outras ferramentas que surgiram pelo React.
 * Utilizado para construção de Single-Page Applications; 
-* Podemos chamar de framework? 
+* Podemos chamar de framework?
+   * Sim , pois existe o React Web, Mobile e outras ferramentas que surgiram pelo React.
 * Tudo fica dentro do Javascript; 
 
 * **React**: é a biblioteca que cria o sistema de componentização e construção de interfaces
