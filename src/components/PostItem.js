@@ -5,12 +5,12 @@ function PostComments({ comments }) {
     <div>
       {/* Percorrendo comentarios de cada post */}
       {comments.map(comment => (
-        <div key={comment.id} class="comment">
+        <div key={comment.id} className="comment">
           <img
             src={comment.author.avatar + comment.author.name + ".png"}
             alt=""
           />
-          <div class="comment-content"><strong>{comment.author.name}</strong><span>{comment.content}</span></div>
+          <div className="comment-content"><strong>{comment.author.name}</strong><span>{comment.content}</span></div>
         </div>
       ))}
     </div>
@@ -19,9 +19,9 @@ function PostComments({ comments }) {
 
 function PostInfo({ author, date }) {
   return (
-    <div class="post-info">
-      <img class="avatar" src={author.avatar + author.name + ".png"} alt="" />
-      <div class="details">
+    <div className="post-info">
+      <img className="avatar" src={author.avatar + author.name + ".png"} alt="" />
+      <div className="details">
         <strong>{author.name} </strong><span>{date}</span>
       </div>
     </div>
@@ -30,9 +30,9 @@ function PostInfo({ author, date }) {
 
 function PostItem({ author, date, content, comments, img }) {
   return (
-    <div class="post">
+    <div className="post">
       <PostInfo author={author} date={date} />      
-      <div class="post-content">{content}</div>
+      <div className="post-content">{content}</div>
       <img src={img} alt="" />
       <PostComments key={comments.id} comments={comments} />
     </div>
