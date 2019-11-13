@@ -152,7 +152,6 @@ module.exports = {
 ```bash
 $ yarn add babel-loader css-loader file-loader style-loader -D
 $ yarn build
-$ yarn add webpack-dev-server -D
 ```
 
 ##### Crie um arquivo index.html dentro da pasta public
